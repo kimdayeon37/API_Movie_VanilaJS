@@ -22,7 +22,7 @@
 133C:\Users\kimdayeon\Documents\movie_vanillajs\node_modules\@parcel\optimizer-htmlnano\node_modules\css-tree\lib\syntax\node\Comment.js133373288567180292 0
 76C:\Users\kimdayeon\Documents\movie_vanillajs\node_modules\.package-lock.json133373288864021383 0
 107C:\Users\kimdayeon\Documents\movie_vanillajs\node_modules\@parcel\runtime-js\src\helpers\node\css-loader.js133373288525461145 0
-49C:\Users\kimdayeon\Documents\movie_vanillajs\dist133374125031911998 1
+49C:\Users\kimdayeon\Documents\movie_vanillajs\dist133374179510320401 1
 94C:\Users\kimdayeon\Documents\movie_vanillajs\node_modules\@swc\helpers\cjs\_async_iterator.cjs133373288496369482 0
 112C:\Users\kimdayeon\Documents\movie_vanillajs\node_modules\lmdb\node_modules\node-addon-api\napi-inl.deprecated.h133373288561123651 0
 81C:\Users\kimdayeon\Documents\movie_vanillajs\node_modules\posthtml-render\license133373288495674088 0
@@ -98,7 +98,7 @@
 105C:\Users\kimdayeon\Documents\movie_vanillajs\node_modules\csso\node_modules\css-tree\cjs\utils\string.cjs133373288550783546 0
 85C:\Users\kimdayeon\Documents\movie_vanillajs\node_modules\regenerator-runtime\LICENSE133373288495662148 0
 94C:\Users\kimdayeon\Documents\movie_vanillajs\node_modules\csso\lib\replace\atrule\keyframes.js133373288490999348 0
-57C:\Users\kimdayeon\Documents\movie_vanillajs\src\main.css133374121864946796 0
+57C:\Users\kimdayeon\Documents\movie_vanillajs\src\main.css133374145451230640 0
 80C:\Users\kimdayeon\Documents\movie_vanillajs\node_modules\nth-check\lib\parse.js133373288487410065 0
 119C:\Users\kimdayeon\Documents\movie_vanillajs\node_modules\@parcel\optimizer-htmlnano\node_modules\svgo\lib\css-tools.js133373288563344012 0
 84C:\Users\kimdayeon\Documents\movie_vanillajs\node_modules\@parcel\watcher\index.d.ts133373288500662833 0
@@ -133,7 +133,7 @@
 89C:\Users\kimdayeon\Documents\movie_vanillajs\node_modules\caniuse-lite\data\regions\CV.js133373288497171531 0
 98C:\Users\kimdayeon\Documents\movie_vanillajs\node_modules\css-tree\lib\syntax\node\SelectorList.js133373288491760673 0
 81C:\Users\kimdayeon\Documents\movie_vanillajs\node_modules\semver\functions\cmp.js133373288502067980 0
-63C:\Users\kimdayeon\Documents\movie_vanillajs\src\store\movie.js133374125031203558 0
+63C:\Users\kimdayeon\Documents\movie_vanillajs\src\store\movie.js133374179509839176 0
 101C:\Users\kimdayeon\Documents\movie_vanillajs\node_modules\@parcel\workers\lib\threads\ThreadsChild.js133373288515462768 0
 82C:\Users\kimdayeon\Documents\movie_vanillajs\node_modules\css-what\lib\es\index.js133373288487761827 0
 102C:\Users\kimdayeon\Documents\movie_vanillajs\node_modules\@swc\helpers\_\_sliced_to_array\package.json133373288500392740 0
@@ -169,7 +169,7 @@
 89C:\Users\kimdayeon\Documents\movie_vanillajs\node_modules\caniuse-lite\data\regions\CX.js133373288497186360 0
 72C:\Users\kimdayeon\Documents\movie_vanillajs\src\components\MovieItem.js133373398729068081 0
 97C:\Users\kimdayeon\Documents\movie_vanillajs\node_modules\css-tree\lib\syntax\node\Parentheses.js133373288491645452 0
-72C:\Users\kimdayeon\Documents\movie_vanillajs\src\components\MovieList.js133374124844045744 0
+72C:\Users\kimdayeon\Documents\movie_vanillajs\src\components\MovieList.js133374152271983171 0
 105C:\Users\kimdayeon\Documents\movie_vanillajs\node_modules\caniuse-lite\data\features\input-placeholder.js133373288499029462 0
 72C:\Users\kimdayeon\Documents\movie_vanillajs\node_modules\ordered-binary133373288491259924 1
 95C:\Users\kimdayeon\Documents\movie_vanillajs\node_modules\caniuse-lite\data\features\dataset.js133373288497227054 0
@@ -184,7 +184,7 @@
 89C:\Users\kimdayeon\Documents\movie_vanillajs\node_modules\caniuse-lite\data\regions\NU.js133373288500637717 0
 108C:\Users\kimdayeon\Documents\movie_vanillajs\node_modules\@swc\helpers\lib\_iterable_to_array_limit_loose.js133373288498624859 0
 142C:\Users\kimdayeon\Documents\movie_vanillajs\node_modules\@parcel\optimizer-svgo\node_modules\css-select\lib\pseudo-selectors\pseudos.d.ts.map133373288563273955 0
-76C:\Users\kimdayeon\Documents\movie_vanillajs\src\components\MovieListMore.js133374112345158998 0
+76C:\Users\kimdayeon\Documents\movie_vanillajs\src\components\MovieListMore.js133374179515235005 0
 85C:\Users\kimdayeon\Documents\movie_vanillajs\node_modules\caniuse-lite\data\agents.js133373288493926662 0
 69C:\Users\kimdayeon\Documents\movie_vanillajs\src\components\Search.js133373359522303899 0
 72C:\Users\kimdayeon\Documents\movie_vanillajs\node_modules\type-fest\ts41133373288492973766 1
@@ -1543,7 +1543,7 @@
 84C:\Users\kimdayeon\Documents\movie_vanillajs\node_modules\@parcel\utils\package.json133373288570934349 0
 70C:\Users\kimdayeon\Documents\movie_vanillajs\node_modules\lmdb\open.js133373288515096619 0
 83C:\Users\kimdayeon\Documents\movie_vanillajs\node_modules\posthtml-parser\readme.md133373288496284100 0
-72C:\Users\kimdayeon\Documents\movie_vanillajs\dist\index.af20ad6e.css.map133374121865459588 0
+72C:\Users\kimdayeon\Documents\movie_vanillajs\dist\index.af20ad6e.css.map133374152275277679 0
 117C:\Users\kimdayeon\Documents\movie_vanillajs\node_modules\@parcel\optimizer-svgo\node_modules\svgo\lib\svgo\config.js133373288562992856 0
 110C:\Users\kimdayeon\Documents\movie_vanillajs\node_modules\@swc\helpers\src\_class_extract_field_descriptor.mjs133373288501162470 0
 124C:\Users\kimdayeon\Documents\movie_vanillajs\node_modules\dom-serializer\node_modules\entities\lib\decode_codepoint.d.ts.map133373288549428354 0
@@ -3402,7 +3402,7 @@
 97C:\Users\kimdayeon\Documents\movie_vanillajs\node_modules\css-tree\cjs\generator\token-before.cjs133373288489712767 0
 101C:\Users\kimdayeon\Documents\movie_vanillajs\node_modules\css-tree\cjs\definition-syntax\generate.cjs133373288488609797 0
 96C:\Users\kimdayeon\Documents\movie_vanillajs\node_modules\chrome-trace-event\dist\trace-event.js133373288496998053 0
-71C:\Users\kimdayeon\Documents\movie_vanillajs\dist\index.4d6bcbeb.js.map133374125031902003 0
+71C:\Users\kimdayeon\Documents\movie_vanillajs\dist\index.4d6bcbeb.js.map133374179510320401 0
 92C:\Users\kimdayeon\Documents\movie_vanillajs\node_modules\@parcel\core\lib\InternalConfig.js133373288550631691 0
 115C:\Users\kimdayeon\Documents\movie_vanillajs\node_modules\@parcel\optimizer-svgo\node_modules\csso\dist\csso.min.js133373288568932608 0
 98C:\Users\kimdayeon\Documents\movie_vanillajs\node_modules\css-tree\cjs\definition-syntax\index.cjs133373288488807529 0
@@ -5028,7 +5028,7 @@
 132C:\Users\kimdayeon\Documents\movie_vanillajs\node_modules\@parcel\optimizer-svgo\node_modules\css-tree\lib\syntax\node\Combinator.js133373288564283022 0
 112C:\Users\kimdayeon\Documents\movie_vanillajs\node_modules\@parcel\optimizer-svgo\node_modules\css-tree\README.md133373288568860792 0
 97C:\Users\kimdayeon\Documents\movie_vanillajs\node_modules\@parcel\transformer-babel\lib\config.js133373288523862814 0
-60C:\Users\kimdayeon\Documents\movie_vanillajs\dist\index.html133374113610049235 0
+60C:\Users\kimdayeon\Documents\movie_vanillajs\dist\index.html133374152275514316 0
 95C:\Users\kimdayeon\Documents\movie_vanillajs\node_modules\@parcel\transformer-babel\lib\flow.js133373288523883041 0
 94C:\Users\kimdayeon\Documents\movie_vanillajs\node_modules\@parcel\transformer-babel\lib\jsx.js133373288523883041 0
 96C:\Users\kimdayeon\Documents\movie_vanillajs\node_modules\@parcel\transformer-babel\lib\types.js133373288523903039 0
@@ -5981,5 +5981,5 @@
 71C:\Users\kimdayeon\Documents\movie_vanillajs\node_modules\.bin\svgo.cmd133373288860776004 0
 71C:\Users\kimdayeon\Documents\movie_vanillajs\node_modules\.bin\svgo.ps1133373288860776004 0
 85C:\Users\kimdayeon\Documents\movie_vanillajs\node_modules\.bin\update-browserslist-db133373288860762483 0
-67C:\Users\kimdayeon\Documents\movie_vanillajs\dist\index.4d6bcbeb.js133374125031882003 0
-68C:\Users\kimdayeon\Documents\movie_vanillajs\dist\index.af20ad6e.css133374121865404488 0
+67C:\Users\kimdayeon\Documents\movie_vanillajs\dist\index.4d6bcbeb.js133374179510258019 0
+68C:\Users\kimdayeon\Documents\movie_vanillajs\dist\index.af20ad6e.css133374152275242480 0
