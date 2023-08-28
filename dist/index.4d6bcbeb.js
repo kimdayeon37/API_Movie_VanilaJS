@@ -786,6 +786,8 @@ exports.default = TheHeader;
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _heropy = require("../core/heropy");
+var _about = require("../store/about");
+var _aboutDefault = parcelHelpers.interopDefault(_about);
 class TheHeader extends (0, _heropy.Component) {
     constructor(){
         super({
@@ -793,17 +795,31 @@ class TheHeader extends (0, _heropy.Component) {
         });
     }
     render() {
+        const { github, repository } = (0, _aboutDefault.default).state;
         this.el.innerHTML = /* html */ `
     <div>
-        <a href="https://github.com/kimdayeon37/API_Movie_VanilaJS">
+        <a href="${repository}">
             Github Repository
         </a>
-        <a href="https://github.com/kimdayeon37">
+        <a href="${github}">
          ${new Date().getFullYear()} DaYeon
     </div>`;
     }
 }
 exports.default = TheHeader;
+
+},{"../core/heropy":"57bZf","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","../store/about":"4RAJO"}],"4RAJO":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _heropy = require("../core/heropy");
+exports.default = new (0, _heropy.Store)({
+    photo: "https://velog.velcdn.com/images/kimdayeon37/profile/e293d6bb-435f-4830-8b7a-03453dd1538f/image.jpg",
+    name: "DAYEON",
+    email: "kdy37912@gmail.com",
+    blog: "https://velog.io/@kimdayeon37",
+    github: "https://github.com/kimdayeon37",
+    repository: "https://github.com/kimdayeon37/API_Movie_VanilaJS"
+});
 
 },{"../core/heropy":"57bZf","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"3L9mC":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
@@ -813,6 +829,8 @@ var _home = require("./Home");
 var _homeDefault = parcelHelpers.interopDefault(_home);
 var _movie = require("./Movie");
 var _movieDefault = parcelHelpers.interopDefault(_movie);
+var _about = require("./About");
+var _aboutDefault = parcelHelpers.interopDefault(_about);
 exports.default = (0, _heropy.createRouter)([
     {
         path: "#/",
@@ -821,10 +839,14 @@ exports.default = (0, _heropy.createRouter)([
     {
         path: "#/movie",
         component: (0, _movieDefault.default)
+    },
+    {
+        path: "#/about",
+        component: (0, _aboutDefault.default)
     }
 ]);
 
-},{"../core/heropy":"57bZf","./Home":"0JSNG","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","./Movie":"1LTyN"}],"0JSNG":[function(require,module,exports) {
+},{"../core/heropy":"57bZf","./Home":"0JSNG","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","./Movie":"1LTyN","./About":"gdB30"}],"0JSNG":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _heropy = require("../core/heropy");
@@ -1116,6 +1138,28 @@ class Movie extends (0, _heropy.Component) {
 }
 exports.default = Movie;
 
-},{"../core/heropy":"57bZf","../store/movie":"kq1bo","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}]},["f3BSW","gLLPy"], "gLLPy", "parcelRequire3347")
+},{"../core/heropy":"57bZf","../store/movie":"kq1bo","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"gdB30":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _heropy = require("../core/heropy");
+var _about = require("../store/about");
+var _aboutDefault = parcelHelpers.interopDefault(_about);
+class About extends (0, _heropy.Component) {
+    render() {
+        const { photo, name, email, github, blog } = (0, _aboutDefault.default).state;
+        this.el.classList.add("container", "about");
+        this.el.innerHTML = /* html */ `
+        <div style="background-image: url(${photo});"
+        class="photo"></div>
+        <p class="name">${name}</p>
+        <p><a href="https://mail.google.com/mail/?view=cm&fs=1&to=${email}" target="_blank">${email}</a></p>
+        <p><a href="${github}" target="_blank">Github</a></p>
+        <p><a href="${blog}" target="_blank">Blog</a></p>
+        `;
+    }
+}
+exports.default = About;
+
+},{"../core/heropy":"57bZf","../store/about":"4RAJO","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}]},["f3BSW","gLLPy"], "gLLPy", "parcelRequire3347")
 
 //# sourceMappingURL=index.4d6bcbeb.js.map
