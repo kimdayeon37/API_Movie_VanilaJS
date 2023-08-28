@@ -37,11 +37,11 @@ export default class TheHeader extends Component {
           ${this.state.menus.map(menu => {
             const href = menu.href.split('?')[0]
             const hash = location.hash.split('?')[0]
-            const isActive = href === hash
+            const isActive = href === hash // boolean
             return /* html */ `
               <li>
                 <a
-                  
+                  class="${isActive ? 'active' : ''}"
                   href="${menu.href}">
                   ${menu.name}
                 </a>

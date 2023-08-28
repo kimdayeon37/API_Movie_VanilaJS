@@ -589,16 +589,19 @@ parcelHelpers.defineInteropFlag(exports);
 var _heropy = require("./core/heropy");
 var _theHeader = require("./components/TheHeader");
 var _theHeaderDefault = parcelHelpers.interopDefault(_theHeader);
+var _theFooter = require("./components/TheFooter");
+var _theFooterDefault = parcelHelpers.interopDefault(_theFooter);
 class App extends (0, _heropy.Component) {
     render() {
         const theHeader = new (0, _theHeaderDefault.default)().el;
+        const thefooter = new (0, _theFooterDefault.default)().el;
         const routerView = document.createElement("router-view");
-        this.el.append(theHeader, routerView);
+        this.el.append(theHeader, routerView, thefooter);
     }
 }
 exports.default = App;
 
-},{"./core/heropy":"57bZf","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","./components/TheHeader":"3Cyq4"}],"57bZf":[function(require,module,exports) {
+},{"./core/heropy":"57bZf","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","./components/TheHeader":"3Cyq4","./components/TheFooter":"b3x3c"}],"57bZf":[function(require,module,exports) {
 ///// Component /////
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
@@ -758,11 +761,12 @@ class TheHeader extends (0, _heropy.Component) {
           ${this.state.menus.map((menu)=>{
             const href = menu.href.split("?")[0];
             const hash = location.hash.split("?")[0];
-            const isActive = href === hash;
+            const isActive = href === hash // boolean
+            ;
             return /* html */ `
               <li>
                 <a
-                  
+                  class="${isActive ? "active" : ""}"
                   href="${menu.href}">
                   ${menu.name}
                 </a>
@@ -774,6 +778,29 @@ class TheHeader extends (0, _heropy.Component) {
         <img src="https://velog.velcdn.com/images/kimdayeon37/profile/e293d6bb-435f-4830-8b7a-03453dd1538f/image.jpg" alt="User">
       </a>
     `;
+    }
+}
+exports.default = TheHeader;
+
+},{"../core/heropy":"57bZf","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"b3x3c":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _heropy = require("../core/heropy");
+class TheHeader extends (0, _heropy.Component) {
+    constructor(){
+        super({
+            tagName: "footer"
+        });
+    }
+    render() {
+        this.el.innerHTML = /* html */ `
+    <div>
+        <a href="https://github.com/kimdayeon37/API_Movie_VanilaJS">
+            Github Repository
+        </a>
+        <a href="https://github.com/kimdayeon37">
+         ${new Date().getFullYear()} DaYeon
+    </div>`;
     }
 }
 exports.default = TheHeader;
