@@ -347,3 +347,11 @@ footer {
     text-decoration: underline;
   }
   
+
+/* routes/NotFound */
+.not-found h1 {
+    font-size: 70px;
+    font-weight: 700;
+    color: var(--color-white-10);
+    text-align: center;
+  }
