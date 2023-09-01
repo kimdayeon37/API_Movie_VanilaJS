@@ -80,16 +80,23 @@ export class Component {
   
   
   ///// Store /////
-  export class Store {
-    constructor(state) {
-      this.state = {} // 상태(데이터)
-      this.observers = {}
+  interface StoreObservers {
+    [key: string]: SubscribeCallback[]
+  }
+  interface SubscribeCallback {
+    (arg: unknown): void
+  }
+  export class Store<S> {
+    public state = {} as S 
+    private observers = {} as StoreObservers
+    constructor(state: S) {
+
       for (const key in state) {
         // 각 상태에 대한 변경 감시(Setter) 설정!
         Object.defineProperty(this.state, key, {
           // Getter
           get: () => state[key],
-          // Setter
+          // Setter: 값을 지정할때. 할당연산자로 
           set: val => {
             state[key] = val
             if (Array.isArray(this.observers[key])) { // 호출할 콜백이 있는 경우!
