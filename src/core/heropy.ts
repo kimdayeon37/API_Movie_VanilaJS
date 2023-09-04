@@ -95,7 +95,7 @@ export class Component {
         // 각 상태에 대한 변경 감시(Setter) 설정!
         Object.defineProperty(this.state, key, {
           // Getter
-          get: () => state[key],
+          get: () => state[key], // state['searchText']
           // Setter: 값을 지정할때. 할당연산자로 
           set: val => {
             state[key] = val
@@ -107,7 +107,7 @@ export class Component {
       }
     }
     // 상태 변경 구독!
-    subscribe(key, cb) {
+    subscribe(key: string, cb: SubscribeCallback) {
       Array.isArray(this.observers[key]) // 이미 등록된 콜백이 있는지 확인!
         ? this.observers[key].push(cb) // 있으면 새로운 콜백 밀어넣기!
         : this.observers[key] = [cb] // 없으면 콜백 배열로 할당!
