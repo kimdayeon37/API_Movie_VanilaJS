@@ -42,4 +42,6 @@ APIKEY=<MY_OMDb_API_KEY>
 
 애플리케이션 서버(Vercel 서비스)에서 사용할 환경변수를 지정했습니다.
 - Vercel 서비스의 프로젝트 'Settings / Environment Variables' 옵션에서 다음과 같이 환경변수를 지정
-![image](https://github.com/kimdayeon37/API_Movie_VanilaJS/assets/93921784/fe77b3ef-e72b-498c-b51e-b1dc69ec42c9)
+
+![image](https://github.com/kimdayeon37/API_Movie_VanilaJS/assets/93921784/6112df5c-d890-455e-a5d4-a5a1c897c9ef)
+
