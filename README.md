@@ -3,11 +3,12 @@
 # 📽 API를 활용한 영화 검색 사이트 
 OMDb API를 활용한 VanilaJS 영화 검색 애플리케이션
 
+## ✔ 기술스택 Vercel Server , javascript -> typescript
+
 이 프로젝트는 [JS버전](https://github.com/kimdayeon37/API_Movie_VanilaJS/tree/master)과 [TS버전](https://github.com/kimdayeon37/API_Movie_VanilaJS/tree/typescript)으로 나누어져있습니다.
 
-[DEMO](https://api-movie-vanila-js.vercel.app/#/)
 
-## ✔ 기술스택 Vercel Server , javascript -> typescript
+[DEMO](https://api-movie-vanila-js.vercel.app/#/)
 
 ![image](https://github.com/kimdayeon37/API_Movie_VanilaJS/assets/93921784/a894c712-27ae-4f1a-a807-15de4e5a6407)
 ![image](https://github.com/kimdayeon37/API_Movie_VanilaJS/assets/93921784/8defa3af-1d7a-4535-a5d2-aa8053056cb4)
