@@ -2,6 +2,7 @@
 
 # 📽 API를 활용한 영화 검색 사이트 
 OMDb API를 활용한 VanilaJS 영화 검색 애플리케이션
+
 이 프로젝트는 [JS버전](https://github.com/kimdayeon37/API_Movie_VanilaJS/tree/master)과 [TS버전](https://github.com/kimdayeon37/API_Movie_VanilaJS/tree/typescript)으로 나누어져있습니다.
 
 [DEMO](https://api-movie-vanila-js.vercel.app/#/)
