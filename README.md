@@ -13,9 +13,11 @@ OMDb API를 활용한 VanilaJS 영화 검색 애플리케이션
 
 ![image](https://github.com/kimdayeon37/API_Movie_VanilaJS/assets/93921784/39c6de5c-4610-4e5e-a707-46741704bdc7)
 
+![image](https://github.com/kimdayeon37/API_Movie_VanilaJS/assets/93921784/e2a48489-9532-47f2-bd9e-226ac398aee8)
+
 ![image](https://github.com/kimdayeon37/API_Movie_VanilaJS/assets/93921784/94a1e54b-0397-4f73-b425-b19fc9f969f2)
 
-![image](https://github.com/kimdayeon37/API_Movie_VanilaJS/assets/93921784/74ee3cce-2b08-4396-a086-ff4cd07a183f)
+
 
 
 실행 방법
