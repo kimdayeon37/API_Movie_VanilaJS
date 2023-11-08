@@ -5,7 +5,7 @@ OMDb API를 활용한 VanilaJS 영화 검색 애플리케이션
 <br/>
 
 ### ⚡ 기술스택 
-<img src="https://img.shields.io/badge/vercel-000000?style=for-the-badge&logo=vercel&logoColor=white"> <img src="https://img.shields.io/badge/typescript-3178C6?style=for-the-badge&logo=typescript&logoColor=white"> <img src="https://img.shields.io/badge/javacript-F7DF1E?style=for-the-badge&logo=javacript&logoColor=white"> <img src="https://img.shields.io/badge/dotenv-ECD53F?style=for-the-badge&logo=dotenv&logoColor=white">
+<img src="https://img.shields.io/badge/vercel-000000?style=for-the-badge&logo=vercel&logoColor=white"> <img src="https://img.shields.io/badge/typescript-3178C6?style=for-the-badge&logo=typescript&logoColor=white"> <img src="https://img.shields.io/badge/javacript-F7DF1E?style=for-the-badge&logo=javacript&logoColor=white"> <img src="https://img.shields.io/badge/env-ECD53F?style=for-the-badge&logo=env&logoColor=white">
 
 이 프로젝트는 [JS버전](https://github.com/kimdayeon37/API_Movie_VanilaJS/tree/master)과 [TS버전](https://github.com/kimdayeon37/API_Movie_VanilaJS/tree/typescript)으로 나누어져있습니다.
 
