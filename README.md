@@ -11,7 +11,7 @@ OMDb API를 활용한 VanilaJS 영화 검색 애플리케이션
 
 <br/>
 
-[DEMO](https://api-movie-vanila-js.vercel.app/#/)
+[DEMO!](https://api-movie-vanila-js.vercel.app/#/)
 
 
 ![image](https://github.com/kimdayeon37/API_Movie_VanilaJS/assets/93921784/39c6de5c-4610-4e5e-a707-46741704bdc7)
